@@ -12,6 +12,10 @@ public class HomeController {
     }
     
   
+    @RequestMapping(path = "/additional")
+    public String additionalThing() {
+        return "Hello REST Microservice World";
+    }
   
  
 }
